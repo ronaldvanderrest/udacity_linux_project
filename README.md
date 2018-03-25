@@ -1,6 +1,11 @@
 # udacity_linux_project
 This project was to configure a secure Ubuntu server, and host an application on it. Therefore, the catalog_application I've created in a previous Udacity project was chosen. In order to run it, the server needs an Apache Webserver, a Postgresql database and some libraries installed. Actually the thoughest part was getting used to Postgresql and adapting the application to use that, as it was initially build with sqlite in mind. 
 
+## Usage
+- url: www.fullstacky.com
+- ip: 35.178.50.13
+- ssh: port 2200
+
 ## Configuration
 Infrastructure
 - Provisioned an Ubuntu server using AWS Lightsail
@@ -75,7 +80,8 @@ Application
 Third party
 - Facebook oath
 
-## Usage
-- url: www.fullstacky.com
-- ip: 35.178.50.13
-- ssh: port 2200
+## Resources
+Used the following resources to build this task.
+- http://modwsgi.readthedocs.io/en/develop/user-guides/quick-configuration-guide.html
+- https://blog.theodo.fr/2017/03/developping-a-flask-web-app-with-a-postresql-database-making-all-the-possible-errors/
+
